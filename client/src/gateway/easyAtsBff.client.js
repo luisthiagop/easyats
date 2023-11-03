@@ -1,8 +1,8 @@
-const easyAtsBffClient = async () => {
+const easyAtsBffClient = async (userData) => {
     const users = await $fetch('http://localhost:3000/generatePDF',
         {
             method: 'POST',
-            body: { title: 'Luis Thiago Padilha', content: 'testando pdf'}
+            body: userData
         }
     );
     return users;

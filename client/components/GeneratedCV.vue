@@ -7,12 +7,12 @@ import Mustache from 'mustache';
 import getTemplate from '../src/usecases/getTemplate';
 
 export default {
+    props: {
+        userData: Object,
+    },
     data(){
         return {
             templateRawHtml: "",
-            userData: {
-                title: "Luis Thiago Padilha",
-            },
             output: "",
         }
     },
@@ -39,9 +39,10 @@ export default {
 #generated-cv {
     background-color: white;
     color: black;
-    border: 1px solid red;
     margin: 10px;
-    height: 600px;
-    width: 1000px;
+    padding: 3px;
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
 }
 </style>
