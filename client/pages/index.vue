@@ -2,6 +2,7 @@
   <div>
     <p>Aqui você pode preencher seu curriculo</p>
     <UButton @click="fetchMessage">Gerar CV</UButton>
+    <GeneratedCV />
   </div>
 </template>
 
@@ -15,7 +16,7 @@ export default {
         const url = window.URL.createObjectURL(file);
         const a = document.createElement('a');
         a.href = url;
-        a.download = 'output.pdf'; // Nome do arquivo
+        a.download = 'output.pdf';
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
