@@ -1,7 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-var generatePDFController = require("../src/http/controllers/generatePDFController");
+var generatePDFController = require("../controllers/generatePDFController");
+var getTemplate = require("../controllers/templateController");
+
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -9,8 +11,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/generatePDF', function(req, res, next) {
-  console.log('chega aqui');
   generatePDFController(req, res, next);
+});
+
+router.get('/getTemplate', function(req, res, next) {
+  getTemplate(req, res, next);
 });
 
 module.exports = router;
