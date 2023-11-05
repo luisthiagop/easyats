@@ -23,6 +23,6 @@ export default {
     padding: 3px;
     width: 210mm;
     height: 297mm;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 </style>

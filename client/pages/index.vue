@@ -1,8 +1,5 @@
 <template>
   <div>
-    <p>Aqui você pode preencher seu curriculo</p>
-    <UButton @click="fetchMessage">Gerar CV</UButton>
-    <FillFields :userData="userData" @refreshCV="fillTemplate"></FillFields>
     <GeneratedCV :userData="userData" :output="output"/>
   </div>
 </template>
