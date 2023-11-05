@@ -3,35 +3,15 @@
 </template>
 
 <script>
-import Mustache from 'mustache';
-import getTemplate from '../src/usecases/getTemplate';
-
 export default {
     props: {
         userData: Object,
+        output: String,
     },
     data(){
         return {
-            templateRawHtml: "",
-            output: "",
         }
     },
-    async mounted(){
-        try{
-            await this.getTemplate();
-            await this.fillTemplate();
-        }catch(e){
-            console.log(e);
-        }
-    },
-    methods: {
-        async getTemplate(){
-            this.templateRawHtml = await getTemplate();
-        },
-        fillTemplate(){
-            this.output = Mustache.render(this.templateRawHtml, this.userData);
-        }
-    }
 }
 </script>
 
