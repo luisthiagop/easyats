@@ -32,8 +32,8 @@ export default {
         console.log(e);
       }
     },
-    async getTemplate(){
-      this.templateRawHtml = await getTemplate();
+    getTemplate(){
+      this.templateRawHtml = getTemplate();
     },
     fillTemplate(data){
       this.userData = data;

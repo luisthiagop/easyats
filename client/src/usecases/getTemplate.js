@@ -1,9 +1,7 @@
-import getTemplateClient from '../gateway/template.client';
+import template from '../templates/ats.mustache';
 
-const getTemplate = async () => {
-    const response = await getTemplateClient();
-
-    return response.template;
+const getTemplate = () => {
+    return template;
 }
 
 export default getTemplate;
