@@ -7,7 +7,7 @@ const data = {
     github: "http://github.com/luisthiagop",
     linkedin: "https://www.linkedin.com/in/luisthiagop/",
     website: null,
-    summary: "I have 7 years of experience in web development using a wide range of technologies, especially based on javascript such as Node.js. My main difference is being very flexible and having training focused on the entire software development cycle. In my last positions I was responsible for defining the best design and architectural decisions to ensure scalability.",
+    summary: "I have 7 years of experience in web development using a wide range of technologies, especially based on javascript such as Node.js. My main difference is being very flexible and having training focused on the entire software development cycle. In my last positions I was responsible for defining the best design and architectural decisions to ensure performance and maintainability.",
     education: [
     {
         institution: "Ponta Grossa State University",
@@ -35,12 +35,11 @@ const data = {
         endYear: "Now",
         endMonth: "",
         actions: [
-            "Act in a full-stack squad as the Software Architect for a B2B digital channel of one of Brazil's largest telecommunication companies.",
             "Act in the maintenance and development of approximately 20 Java-based microservices (Quarkus) and a similar number of Vue.js and Node.js microfrontends within the existing architecture.",
+            "Conducted startegies to refactor modules in vue.js and node.js, reaching best practicies and using patterns like clean architecture, clean code and SOLID.",
             "Designed and helped develop the integration of facial biometrics into various channel functionalities for enhanced authorization mechanisms. Actually it's used at different applications and verify around of 200.000 biometric faces per month.",
             "Engineered a robust application facilitating streamlined upload of diverse client documents during prospecting and ensuring there is no overload on the cluster network and resources.",
             "Ensured the ongoing maintenance, robustness, health of the system modules using performing stress tests and Kibana, Grafana, Prometheus to monitoring.",
-            "Spearheaded multiple Proof of Concepts (PoCs) to ensure the best technologies and system design.",
             "Presented findings and justifications for this choice to client representatives, effectively conveying the substantial improvements in code quality achievable through Sonarqube integration." 
         ]
     },
