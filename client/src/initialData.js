@@ -37,7 +37,7 @@ const data = {
         actions: [
             "Act in a full-stack squad as the Software Architect for a B2B digital channel of one of Brazil's largest telecommunication companies.",
             "Act in the maintenance and development of approximately 20 Java-based microservices (Quarkus) and a similar number of Vue.js and Node.js microfrontends within the existing architecture.",
-            "Designed and helped develop the integration of facial biometrics into various channel functionalities for enhanced authorization mechanisms. Actually it's used at different applications and verify around of 100.000 biometric faces per month.",
+            "Designed and helped develop the integration of facial biometrics into various channel functionalities for enhanced authorization mechanisms. Actually it's used at different applications and verify around of 200.000 biometric faces per month.",
             "Engineered a robust application facilitating streamlined upload of diverse client documents during prospecting and ensuring there is no overload on the cluster network and resources.",
             "Ensured the ongoing maintenance, robustness, health of the system modules using performing stress tests and Kibana, Grafana, Prometheus to monitoring.",
             "Spearheaded multiple Proof of Concepts (PoCs) to ensure the best technologies and system design.",
@@ -106,7 +106,7 @@ const data = {
     },
     ],
     technicalSkills: [
-        "Node.js", "Java", "Javascript", "Vue.js", "Nuxt.js", "Cloud computing", "Docker", "Kubernetes", "Istio", "MongoDB", "Redis", "Scalability", "System Design", "Algorithms", "Distributed Systems"
+        "Node.js", "Java", "Javascript", "Vue.js", "Nuxt.js", "Vuex", "Cloud computing", "Docker", "Kubernetes", "Istio", "MongoDB", "Redis", "Scalability", "System Design", "Algorithms", "Distributed Systems"
     ],
     softSkills: [
         "Decision-making", "Ideas organizer", "Creative thinker", "self-motivated", "Proactive in taking ownership and responsability",
