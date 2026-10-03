@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
+    "@nuxt/devtools": "^4.0.0-beta.3",
     "@nuxtjs/color-mode": "^3.3.0",
     "nuxt": "^3.8.0",
     "nuxt-gtag": "^1.1.1",
@@ -18,7 +18,10 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@nuxt/ui": "^2.10.0",
+    "@nuxt/ui": "^4.11.3",
     "mustache": "^4.2.0"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
