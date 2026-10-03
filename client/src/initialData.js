@@ -1,17 +1,17 @@
 const data = {
     name: "Luis Thiago Padilha",
-    title: "Software Engineer",
+    title: "Tech Lead | Software Architect | Backend | Cloud | AWS | Serverless | Distributed Systems",
     phone: "+55 (42) 99145-4275",
     mail: "luisthiagop@gmail.com",
     location: "Ponta Grossa, PR, Brazil",
     github: "http://github.com/luisthiagop",
     linkedin: "https://www.linkedin.com/in/luisthiagop/",
-    website: null,
-    summary: "I have 7 years of experience in web development using a wide range of technologies, especially based on javascript such as Node.js. My main difference is being very flexible and having training focused on the entire software development cycle. In my last positions I was responsible for defining the best design and architectural decisions to ensure performance and maintainability.",
+    website: "https://lpadilha.vercel.app/",
+    summary: "Software Architect and Tech Lead with 9+ years of experience building cloud-native, highly available B2B and B2C platforms. Strong expertise in Node.js, TypeScript, AWS, serverless architectures, Kubernetes, microservices, distributed systems, and system design. Experienced in defining scalable and resilient architectures, leading full-stack teams, driving technical decisions, improving software delivery, and applying Site Reliability Engineering practices. Proven experience collaborating with cross-functional and international stakeholders, including Meta.",
     education: [
     {
         institution: "Ponta Grossa State University",
-        course: "Bacharelor of Computer Engineering",
+        course: "Bachelor of Computer Engineering",
         startYear: 2015,
         startMonth: "Jan",
         endYear: 2019,
@@ -19,7 +19,7 @@ const data = {
     },
     {
         institution: "President Kennedy State College",
-        course: "Computer Science",
+        course: "Computer Technician in Information Technology",
         startYear: 2011,
         startMonth: "Jan",
         endYear: 2014,
@@ -29,18 +29,39 @@ const data = {
     professionalExperiences: [
     {
         company: "CI&T Software",
-        role: "Software Architect",
-        startYear: 2021,
-        startMonth: "Nov",
+        role: "Senior Software Architect",
+        startYear: 2022,
+        startMonth: "Apr",
         endYear: "Now",
         endMonth: "",
         actions: [
-            "Act in the maintenance and development of approximately 20 Java-based microservices (Quarkus) and a similar number of Vue.js and Node.js microfrontends within the existing architecture.",
-            "Conducted startegies to refactor modules in vue.js and node.js, reaching best practicies and using patterns like clean architecture, clean code and SOLID.",
-            "Designed and helped develop the integration of facial biometrics into various channel functionalities for enhanced authorization mechanisms. Actually it's used at different applications and verify around of 200.000 biometric faces per month.",
-            "Engineered a robust application facilitating streamlined upload of diverse client documents during prospecting and ensuring there is no overload on the cluster network and resources.",
-            "Ensured the ongoing maintenance, robustness, health of the system modules using performing stress tests and Kibana, Grafana, Prometheus to monitoring.",
-            "Presented findings and justifications for this choice to client representatives, effectively conveying the substantial improvements in code quality achievable through Sonarqube integration." 
+            "Lead a full-stack squad as Software Architect for Vivo's B2B digital channel, supporting a high-scale platform with thousands of daily users.",
+            "Define software architecture, technical strategies, design decisions, and engineering practices across backend, frontend, cloud, and distributed systems.",
+            "Oversee the maintenance and evolution of approximately 20 Java-based microservices using Quarkus and a similar number of Node.js and Vue.js microfrontends.",
+            "Design and implement scalable, resilient, and highly available solutions across a complex microservices and microfrontend ecosystem.",
+            "Integrated facial biometrics into multiple digital channel capabilities, strengthening authentication and authorization processes.",
+            "Architected a customer data update mechanism integrating SOAP and REST APIs across multiple systems.",
+            "Engineered a scalable document upload solution capable of handling diverse customer documents while protecting cluster resources and network capacity.",
+            "Drive Site Reliability Engineering practices, system observability, monitoring, performance, resilience, and operational health across the digital channel.",
+            "Collaborate with product, engineering, architecture, DevOps, SRE, and client stakeholders to identify risks, define technical solutions, and deliver complex initiatives.",
+            "Lead Proof of Concepts and technical evaluations to validate architecture, technologies, scalability, maintainability, and cost-effectiveness.",
+            "Provide technical leadership and mentorship to engineers, supporting architectural alignment, technical decision-making, and continuous improvement."
+        ]
+    },
+    {
+        company: "CI&T Software",
+        role: "Software Engineer",
+        startYear: 2021,
+        startMonth: "Nov",
+        endYear: 2022,
+        endMonth: "Apr",
+        actions: [
+            "Worked as part of a DevOps team responsible for improving development pipelines used by dozens of modules and multiple engineering teams.",
+            "Led Proof of Concepts to evaluate static code analysis solutions and improve software quality within GitLab CI pipelines.",
+            "Evaluated alternative solutions and recommended SonarQube based on code quality, technical capabilities, implementation effort, and cost-effectiveness.",
+            "Designed the implementation strategy and provided technical documentation for integrating SonarQube with GitLab CI.",
+            "Presented technical findings, trade-offs, and recommendations to client stakeholders.",
+            "Implemented and fine-tuned the selected solution, improving automated code quality practices across development pipelines."
         ]
     },
     {
@@ -51,43 +72,44 @@ const data = {
         endYear: 2021,
         endMonth: "Nov",
         actions: [
-            "Led the Vue.js and Node.js front-end development for an IoT solution.",
-            "Managed the maintenance of backlog items, ensuring efficient task prioritization.",
-            "Oversaw gitflow processes, version control, and solution deployment across diverse environments.",
-            "Employed cutting-edge technologies such as Docker and Kubernetes to optimize system operations.",
-            "Provided guidance and mentorship to junior developers and interns, fostering their growth."
+            "Led Vue.js and Node.js development for an IoT platform, contributing to frontend architecture and end-to-end solution design.",
+            "Designed and implemented a Micro Frontend architecture to improve modularity, scalability, and independent development.",
+            "Designed an end-to-end testing architecture using Robot Framework, Selenium, and Robocorp.",
+            "Managed backlog items, technical priorities, and development activities to support predictable delivery.",
+            "Managed GitFlow, version control, and deployments across multiple environments.",
+            "Worked with Docker and Kubernetes to improve application deployment and operational consistency.",
+            "Mentored junior developers and interns, providing technical guidance and supporting their professional development."
         ]
     },
     {
-        company: "Inpelle Health Plan",
+        company: "Inpelle Saúde e Beleza",
         role: "Software Engineer",
         startYear: 2020,
-        startMonth: "Apr",
+        startMonth: "Aug",
         endYear: 2021,
         endMonth: "Apr",
         actions: [
-            "Led the development of software for managing private clinic plans.",
-            "Played a key role in defining, developing, and implementing the Progressive Web App (PWA) solution.",
-            "Leveraged the JavaScript stack, utilizing React and Node.js, along with Postgres for robust backend functionality.",
-            "Established a custom infrastructure on Digital Ocean, employing Docker, Amazon SES, and SNS for efficient communication.",
-            "Designed and implemented a backup architecture employing RSync, Shellscripting, and Crontab.",
-            "Took charge of architecting and developing the front-end using Vue.js for a module dedicated to clinic and office management, in collaboration with a partner company."
+            "Led the development of software solutions for private healthcare clinic management.",
+            "Defined, developed, and implemented a Progressive Web App (PWA) solution.",
+            "Developed backend services using Node.js and frontend applications using React and Vue.js.",
+            "Designed backend solutions using PostgreSQL and JavaScript technologies.",
+            "Designed and implemented infrastructure on DigitalOcean using Docker, Amazon SES, and Amazon SNS.",
+            "Designed and implemented a backup architecture using RSync, shell scripting, and Crontab.",
+            "Architected and developed a Vue.js module for clinic and office management in collaboration with a partner company."
         ]
     },
     {
-        company: "KMM",
+        company: "KMM | Inovup",
         role: "Full Stack Developer",
         startYear: 2019,
-        startMonth: "May",
+        startMonth: "Jul",
         endYear: 2020,
-        endMonth: "Apr",
+        endMonth: "Jul",
         actions: [
-            "Managed software maintenance across diverse technologies including Delphi, Java, and Oracle.",
-            "Act in the creation of innovative Java applications, expanding the functionality and capabilities of the system.",
-            "Leveraged the JavaScript stack, utilizing React and Node.js, along with Postgres for robust backend functionality.",
-            "Established a custom infrastructure on Digital Ocean, employing Docker, Amazon SES, and SNS for efficient communication.",
-            "Designed and implemented a backup architecture employing RSync, Shellscripting, and Crontab.",
-            "Took charge of architecting and developing the front-end using Vue.js for a module dedicated to clinic and office management, in collaboration with a partner company."
+            "Worked as a Full Stack Developer on ERP and WMS solutions.",
+            "Maintained and evolved enterprise software across Delphi, Java, and Oracle technologies.",
+            "Developed Java applications to expand system functionality and support new business requirements.",
+            "Worked across backend, database, and application layers to troubleshoot and deliver software improvements."
         ]
     },
     {
@@ -96,30 +118,80 @@ const data = {
         startYear: 2016,
         startMonth: "Oct",
         endYear: 2018,
-        endMonth: "Oct",
+        endMonth: "Apr",
         actions: [
-            "Took charge of maintaining several institutional websites for UEPG using WordPress, ensuring their seamless functionality and up-to-date content.",
-            "Orchestrated the end-to-end development of an event registration platform for the Higher Education Teaching Program using Laravel, enhancing administrative efficiency.",
-            "Played an integral role in crafting a comprehensive event management system for the university, employing Laravel to streamline event-related processes."
+            "Maintained and evolved institutional websites using WordPress.",
+            "Designed and developed an event registration platform for the Higher Education Teaching Program using Laravel.",
+            "Developed an event management system using Laravel to streamline university event processes.",
+            "Worked across frontend, backend, database, and deployment activities throughout the software development lifecycle."
         ]
     },
     ],
     technicalSkills: [
-        "Node.js", "Java", "Javascript", "Vue.js", "Nuxt.js", "Vuex", "Cloud computing", "Docker", "Kubernetes", "Istio", "MongoDB", "Redis", "Scalability", "System Design", "Algorithms", "Distributed Systems"
+        "Node.js",
+        "TypeScript",
+        "JavaScript",
+        "Java",
+        "Vue.js",
+        "React",
+        "Nuxt.js",
+        "Vuex",
+        "AWS",
+        "AWS Lambda",
+        "Amazon DynamoDB",
+        "Amazon Cognito",
+        "Amazon SQS",
+        "Amazon SNS",
+        "Amazon EventBridge",
+        "Serverless",
+        "Cloud Computing",
+        "Kubernetes",
+        "Docker",
+        "Istio",
+        "Microservices",
+        "Micro Frontends",
+        "Distributed Systems",
+        "System Design",
+        "Scalability",
+        "High Availability",
+        "Site Reliability Engineering",
+        "Observability",
+        "CI/CD",
+        "GitLab CI",
+        "SonarQube",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis",
+        "REST APIs",
+        "SOAP",
+        "Algorithms"
     ],
     softSkills: [
-        "Decision-making", "Ideas organizer", "Creative thinker", "self-motivated", "Proactive in taking ownership and responsability",
-        "Problem Solver"
+        "Technical Leadership",
+        "People Leadership",
+        "Architecture Decision-Making",
+        "Strategic Thinking",
+        "Problem Solving",
+        "Communication",
+        "Stakeholder Management",
+        "Cross-functional Collaboration",
+        "Mentoring",
+        "Technical Documentation",
+        "Ownership",
+        "Decision-making",
+        "Proactive Leadership"
     ],
     additionalSkills: [
-        "Competitive programming"
+        "Competitive Programming",
+        "AI-assisted Development",
+        "Proof of Concepts (PoCs)"
     ],
     languages: [
-        "English",
-        "Portuguese"
+        "Portuguese",
+        "English"
     ],
     certifications: [
-        "Microsoft Azure Fundamentals"
+        "Microsoft Certified: Azure Fundamentals"
     ]
 }
 
