@@ -7,7 +7,7 @@ const data = {
     github: "http://github.com/luisthiagop",
     linkedin: "https://www.linkedin.com/in/luisthiagop/",
     website: "https://lpadilha.vercel.app/",
-    summary: "Software Architect and Tech Lead with 9+ years of experience building cloud-native, highly available B2B and B2C platforms. Strong expertise in Node.js, TypeScript, AWS, serverless architectures, Kubernetes, microservices, distributed systems, and system design. Experienced in defining scalable and resilient architectures, leading full-stack teams, driving technical decisions, improving software delivery, and applying Site Reliability Engineering practices. Proven experience collaborating with cross-functional and international stakeholders, including Meta.",
+    summary: "Software Architect and Tech Lead with 9+ years of experience building cloud-native, highly available B2B and B2C platforms. Strong expertise in Node.js, TypeScript, AWS, serverless architectures, Kubernetes, microservices, distributed systems, and system design. Experienced in defining scalable and resilient architectures, leading full-stack teams, driving technical decisions, improving software delivery, and applying Site Reliability Engineering practices. Proven experience collaborating with cross-functional and international stakeholders, including Meta. Increasingly focused on AI-assisted software engineering, agentic workflows, and SDD-driven development.",
     education: [
     {
         institution: "Ponta Grossa State University",
@@ -29,11 +29,32 @@ const data = {
     professionalExperiences: [
     {
         company: "CI&T Software",
+        role: "Senior Software Architect | Tech Lead",
+        startYear: 2026,
+        startMonth: "Mar",
+        endYear: "Now",
+        endMonth: "",
+        actions: [
+            "Act as Tech Lead and Software Architect in a cloud-native B2B platform, leading technical decisions, solution design, backlog refinement, and delivery of complex business capabilities.",
+            "Design and evolve serverless architectures using AWS Lambda, DynamoDB, SNS, SQS, EventBridge, and Node.js, focusing on scalability, resilience, asynchronous processing, and maintainability.",
+            "Architect solutions to enable legal-entity (B2B) operations in a platform originally designed to support individual customers, defining the required changes across multiple services, integrations, business flows, and data models.",
+            "Translate complex business requirements into technical solutions, identifying dependencies, risks, architectural impacts, and implementation strategies across distributed systems.",
+            "Lead technical discussions and collaborate with engineers, product stakeholders, and client representatives to align business requirements with scalable and maintainable architectural solutions.",
+            "Own and continuously refine the technical backlog, breaking down complex initiatives into actionable work, defining dependencies, risks, and implementation priorities.",
+            "Drive the adoption of AI-assisted software engineering practices, exploring how artificial intelligence can improve development productivity, technical analysis, documentation, and problem solving.",
+            "Lead multiple Proofs of Concept (PoCs) involving artificial intelligence and AI-assisted development workflows, evaluating practical applications and their potential impact on software engineering activities.",
+            "Experiment with agentic AI workflows and AI-powered development models to support research, implementation, analysis, and technical decision-making throughout the software development lifecycle.",
+            "Adopt a Software Design Document (SDD)-driven development approach, using structured technical specifications and AI-assisted workflows to improve problem decomposition, implementation quality, and alignment between architecture and development.",
+            "Combine traditional software architecture practices with AI-assisted and agentic engineering approaches to accelerate delivery while maintaining technical quality, scalability, and architectural consistency."
+        ]
+    },
+    {
+        company: "CI&T Software",
         role: "Senior Software Architect",
         startYear: 2022,
         startMonth: "Apr",
-        endYear: "Now",
-        endMonth: "",
+        endYear: 2026,
+        endMonth: "Feb",
         actions: [
             "Lead a full-stack squad as Software Architect for Vivo's B2B digital channel, supporting a high-scale platform with thousands of daily users.",
             "Define software architecture, technical strategies, design decisions, and engineering practices across backend, frontend, cloud, and distributed systems.",
@@ -44,7 +65,7 @@ const data = {
             "Engineered a scalable document upload solution capable of handling diverse customer documents while protecting cluster resources and network capacity.",
             "Drive Site Reliability Engineering practices, system observability, monitoring, performance, resilience, and operational health across the digital channel.",
             "Collaborate with product, engineering, architecture, DevOps, SRE, and client stakeholders to identify risks, define technical solutions, and deliver complex initiatives.",
-            "Lead Proof of Concepts and technical evaluations to validate architecture, technologies, scalability, maintainability, and cost-effectiveness.",
+            "Lead Proofs of Concept and technical evaluations to validate architecture, technologies, scalability, maintainability, and cost-effectiveness.",
             "Provide technical leadership and mentorship to engineers, supporting architectural alignment, technical decision-making, and continuous improvement."
         ]
     },
@@ -57,7 +78,7 @@ const data = {
         endMonth: "Apr",
         actions: [
             "Worked as part of a DevOps team responsible for improving development pipelines used by dozens of modules and multiple engineering teams.",
-            "Led Proof of Concepts to evaluate static code analysis solutions and improve software quality within GitLab CI pipelines.",
+            "Led Proofs of Concept to evaluate static code analysis solutions and improve software quality within GitLab CI pipelines.",
             "Evaluated alternative solutions and recommended SonarQube based on code quality, technical capabilities, implementation effort, and cost-effectiveness.",
             "Designed the implementation strategy and provided technical documentation for integrating SonarQube with GitLab CI.",
             "Presented technical findings, trade-offs, and recommendations to client stakeholders.",
@@ -182,8 +203,10 @@ const data = {
         "Proactive Leadership"
     ],
     additionalSkills: [
+        "AI-assisted Software Engineering",
+        "Agentic AI Workflows",
+        "Software Design Documents (SDD)",
         "Competitive Programming",
-        "AI-assisted Development",
         "Proof of Concepts (PoCs)"
     ],
     languages: [
@@ -191,8 +214,10 @@ const data = {
         "English"
     ],
     certifications: [
-        "Microsoft Certified: Azure Fundamentals"
+        "Microsoft Certified: Azure Fundamentals",
+        "Claude 101"
     ]
 }
 
 export default data;
+
